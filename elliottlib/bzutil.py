@@ -289,7 +289,7 @@ class JIRABugTracker(BugTracker):
         # TODO: have jira.yml file for all versions 4.6-4.11
         if version != '4.11':
             return {
-                'server': "https://issues.stage.redhat.com",
+                'server': "https://issues.redhat.com",
                 'project': 'OCPBUGS',
                 'target_release': [f"{version}.0", f"{version}.z"]
             }
